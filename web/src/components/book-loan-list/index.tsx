@@ -27,7 +27,7 @@ export function BookLoanList() {
             <td>{loan.id}</td>
             <td>{loan.name}</td>
             <td>{loan.author}</td>
-            <td></td>
+            <td>{loan.publicationyear}</td>
           </tr>
           ))}
         </tbody>
